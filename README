@@ -2,3 +2,5 @@
 ```
 npm run server
 2.支持markdown的标签有#,##,###,---还有段落
+3.效果实例
+![实例](https://github.com/caisisi123/readme/edit/master/dist/img.png)
