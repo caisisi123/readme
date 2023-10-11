@@ -1,7 +1,13 @@
-1.启动服务器
-```
-npm run server
-2.支持markdown的标签有#,##,###,---还有段落
-3.效果实例
-![实例](https://github.com/caisisi123/readme/edit/master/dist/img.png)
-<img src=https://github.com/caisisi123/readme/tree/master/dist/img.png>
+## 启动服务器
+`npm run server`
+
+## 支持的Markdown标签包括：
+
+- `#`：一级标题
+- `##`：二级标题
+- `###`：三级标题
+- `---`：水平线
+
+## 示例效果
+![图片描述](https://github.com/caisisi123/readme/raw/master/dist/img.png)
+
