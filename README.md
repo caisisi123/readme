@@ -47,6 +47,31 @@ Handle(line:CurrentLine):void;
     hrhandle.setNext(phandle);
 
 ```
+## 完成的需求列表
+
+·创建一个应用程序来解析markdown。
+
+·每当文本区域发生变化时，就再次解析整个文档。
+
+·在用户按下Enter键的地方换行。
+
+·起始字符将决定该行是否是markdown。
+
+·#后跟一个空格将被替换为H1标题。
+
+·##后跟一个空格将被替换为H2标题。
+
+·###后跟一个空格将被替换为H3标题。
+
+·---将被替换为一条水平分隔线。
+
+·如果一行没有以markdown开头，则将该行视为一个段落。
+
+·生成的HTML将在一个标签内显示。
+
+·如果markdown文本区域的内容为空，则标签将包含一个空段落。
+
+·使用Bootstrap进行布局，内容将拉伸到100%的高度。
 
 ## 示例效果
 ![图片描述](https://github.com/caisisi123/readme/raw/master/dist/img.png)
